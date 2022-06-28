@@ -27,7 +27,7 @@
 
 ​	Exemplo de imagem do conjunto de dados: 
 
-![exemplo_dataset](images\exemplo_dataset.png)
+![exemplo_dataset](https://github.com/arianeat/water_monitoring/blob/main/images/exemplo_dataset.png?raw=true)
 
 ​	As imagens do conjunto de dados apresentam tamanhos variados. Para o treinamento da rede foi utilizado imagens de tamanho 128x128, sendo assim foram realizadas operações nas imagens, como:
 
@@ -45,7 +45,7 @@
 
 ​	No artigo original, a UNET é descrita da seguinte forma:
 
-![u_net](images\u_net.png)
+![u_net](https://github.com/arianeat/water_monitoring/blob/main/images/u_net.png?raw=true)
 
 ​	Observe que no artigo original, o tamanho da imagem de entrada é 572x572x3, porém, usaremos a imagem de entrada de tamanho 128x128x6. 
 
@@ -57,11 +57,11 @@
 
 ​	Os gráficos a seguir mostram a performance do modelo após o treinamento de 50 épocas com *bathsize* de 32.
 
-![metrics](images\metrics.png)
+![metrics](https://github.com/arianeat/water_monitoring/blob/main/images/metrics.png?raw=true)
 
 ​	A imagem abaixo apresenta o desempenho da rede em algumas imagens presentes no conjunto de dados de teste.
 
-![result_test](images\result_test.png)
+![result_test](https://github.com/arianeat/water_monitoring/blob/main/images/result_test.png?raw=true)
 
    Utilizando o índice de *Jaccard* para avaliar a eficiência do modelo no conjunto de teste o resultado foi de 95,19% de precisão.
 
@@ -86,11 +86,11 @@
 
 ​	Está localizado na antiga sede do município de São José de Piranhas, que ficou alagado e a cidade foi reconstruída um pouco ao sul. É o terceiro maior açude do estado da Paraíba, com capacidade para 293 milhões de metros cúbicos de água. A figura abaixo apresenta uma imagem do Açude Engenheiro Ávidos (esquerda) e uma imagem da máscara de água prevista pelo modelo de *deep learning* criado.
 
-![](images\avidos.png)
+![](https://github.com/arianeat/water_monitoring/blob/main/images/avidos.png?raw=true)
 
 ​	Considerando que a área da superfície do reservatório hídrico é proporcional ao volume do mesmo, faremos uma comparação do gráfico do monitoramento superfície hídrica obtido a partir do modelo com os dados de volume do reservatório disponíveis no site da [Agência Executiva das Águas (AESA)](http://www.aesa.pb.gov.br/aesa-website/monitoramento/ultimos-volumes/). Na figura abaixo, a imagem da esquerda apresenta o resultado obtido pelo modelo e  na figura a direita os dados retirados do site da AESA para o mesmo reservatório no mesmo período de tempo. Podemos perceber que os dois gráficos apresentam um comportamento semelhante.
 
-![](images\result_avidos.png)
+![](https://github.com/arianeat/water_monitoring/blob/main/images/result_avidos.png?raw=true)
 
 ​	
 
@@ -98,11 +98,11 @@
 
    O Açude de Acauã fica localizado no município de Itatuba e é classificado como barragem de grande porte. Apresenta uma capacidade de armazenamento de cerca de 253 milhões de metros cúbicos de água potável. 
 
-![acaua](images\acaua.png)
+![acaua](https://github.com/arianeat/water_monitoring/blob/main/images/acaua.png?raw=true)
 
 ​	Na figura a seguir podemos verificar a relação do gráfico da superfície hídrica obtido a partir do modelo com o gráfico de volume do açude Acauã disponível no site da AESA.  
 
-![result_acaua](images\result_acaua.png)
+![result_acaua](https://github.com/arianeat/water_monitoring/blob/main/images/result_acaua.png?raw=true)
 
 
 
@@ -110,21 +110,21 @@
 
  O açude Lagoa do Arroz é localizado no município de Cajazeiras, estado da Paraíba. Tem capacidade de armazenamento de 80 milhões de metros cúbicos de água.
 
-![arroz](images\arroz.png)
+![arroz](https://github.com/arianeat/water_monitoring/blob/main/images/arroz.png?raw=true)
 
 ​	A figura abaixo apresenta o resultado obtido pelo modelo (imagem direita) e  os dados retirados do site da AESA (imagem esquerda) para o açude Lagoa do Arroz  no mesmo período de tempo. 
 
-![result_arroz](images\result_arroz.png)
+![result_arroz](https://github.com/arianeat/water_monitoring/blob/main/images/result_arroz.png?raw=true)
 
 ### Açude Gramame-Mamuaba
 
 ​	O açude de Gramame-Mamuaba fica localizado na cidade de Conde e abastece João Pessoa e cidades da região metropolitana, com capacidade de armazenar cerca de 57 milhões de metros cúbicos de água. A figura a seguir apresenta uma imagem do Açude Gramame-Mamuaba (esquerda) e uma imagem da máscara de água prevista pelo modelo de *deep learning* criado.
 
-![gramame](images\gramame.png)
+![gramame](https://github.com/arianeat/water_monitoring/blob/main/images/gramame.png?raw=true)
 
 ​	A figura abaixo apresenta a comparação do gráfico gerado pelo modelo criado (esquerda) e o gráfico obtido como os dados presente na AESA (direita) para o açude Gramame/Mamuaba.
 
-![result_gramame](images\result_gramame.png)
+![result_gramame](https://github.com/arianeat/water_monitoring/blob/main/images/result_gramame.png?raw=true)
 
 ​	Dos quatro açudes apresentados neste trabalho, o açude Gramame/Mamuaba foi o que apresentou uma menor relação entre o gráfico gerado e os dados presentes na AESA. Isso pode ser explicado pela localização do açude, o litoral do estado da paraíba, onde tem uma maior presença de nuvens, o que dificulta a obtenção de imagens limpas (sem nuvens) para a inferência do modelo.
 
@@ -141,10 +141,3 @@
 4. [Ronneberger et al. (2015)'s U-Net](https://arxiv.org/abs/1505.04597)
 
 5. [Understanding Semantic Segmentation with UNET](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
-
-   
-
-
-
-
-
