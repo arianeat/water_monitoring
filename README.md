@@ -23,7 +23,7 @@
 ​	 As máscaras são basicamente etiquetas para cada pixel. Cada pixel recebe uma das duas categorias:
 
 - Classe 1: Pixel pertencente a água.
-- Classe 0: Pixel não pertence a água.
+- Classe 0: Pixel não pertencente a água.
 
 ​	Exemplo de imagem do conjunto de dados: 
 
